@@ -13,8 +13,8 @@ public class NumbersDemo {
 		NumbersDemo.displayNumberPlusFive(intA);
 		NumbersDemo.displayNumberPlusFive(intB);
 		
-		NumbersDemo.displayNumberSquared(intA);
-		NumbersDemo.displayNumberSquared(intB);
+		// NumbersDemo.displayNumberSquared(intA);
+		// NumbersDemo.displayNumberSquared(intB);
 
 	}
 	
@@ -30,10 +30,6 @@ public class NumbersDemo {
 		System.out.println(numberPlusFive); 
 	}
 	
-	public static void displayNumberSquared(Integer number) {
-		Integer numberSquared;
-		numberSquared = number * number; 
-		System.out.println(numberSquared); 
-	}
+
 
 }
